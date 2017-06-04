@@ -154,7 +154,7 @@ To support result validation and accurate fragment matching on unions and interf
 
 
 ```js
-import { IntrospectionFragmentMatcher } from 'react-apollo';
+import { IntrospectionFragmentMatcher } from 'apollo-client';
 
 const myFragmentMatcher = new IntrospectionFragmentMatcher({
   introspectionQueryResultData: {
